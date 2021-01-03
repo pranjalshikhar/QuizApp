@@ -41,22 +41,22 @@
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/amita_bold"
+                android:fontFamily="sans-serif-black"
                 android:gravity="center"
                 android:text="@string/welcome"
-                android:textColor="@color/black"
-                android:textSize="30sp" />
+                android:textColor="#000000"
+                android:textSize="36sp" />
 
             <TextView
                 android:id="@+id/tv_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/annie_use_your_telescope"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:text="@string/please_enter_your_name"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="35sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout

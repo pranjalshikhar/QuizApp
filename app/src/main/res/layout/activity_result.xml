@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_bg"
+    android:background="@drawable/ic_result_bg"
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:padding="20dp"
@@ -21,8 +22,8 @@
 
     <ImageView
         android:id="@+id/iv_trophy"
-        android:layout_width="wrap_content"
-        android:layout_height="315dp"
+        android:layout_width="321dp"
+        android:layout_height="259dp"
         android:contentDescription="image"
         android:src="@drawable/ic_trophy" />
 
@@ -34,7 +35,7 @@
         android:text="Hey, Congratulations!"
         android:textColor="@android:color/white"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tv_name"
@@ -51,8 +52,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:textColor="@android:color/secondary_text_dark"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         tools:text="Your Score is 9 out of 10" />
 
     <Button

@@ -22,13 +22,14 @@
             android:gravity="center"
             android:text="Which Pokémon is this?"
             android:textColor="#363A43"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textSize="30sp"
+            android:fontFamily="@font/pokemon_normal"
+            />
 
         <ImageView
             android:id="@+id/iv_image"
-            android:layout_width="wrap_content"
-            android:layout_height="212dp"
+            android:layout_width="326dp"
+            android:layout_height="183dp"
             android:layout_marginTop="16dp"
             android:src="@drawable/ic_pic_of_squirtle" />
 
@@ -69,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@drawable/default_option_order_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="8dp"
             android:textColor="#000000"
@@ -81,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@drawable/default_option_order_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="8dp"
             android:textColor="#000000"
@@ -93,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@drawable/default_option_order_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="8dp"
             android:textColor="#000000"
@@ -105,7 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@drawable/default_option_order_bg"
+            android:background="@drawable/default_option_border_bg"
             android:gravity="center"
             android:padding="8dp"
             android:textColor="#000000"
