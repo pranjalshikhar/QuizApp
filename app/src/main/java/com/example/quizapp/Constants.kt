@@ -139,7 +139,7 @@ object Constants {
         )
         questionsList.add(ques10)
 //
-//        // 2
+//        // 11
 //        val ques2 = Questions(
 //            1,
 //            "Which Pokémon is this?",
